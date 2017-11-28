@@ -1,7 +1,16 @@
 html {
   font-family: "Open Sans", sans-serif;
+  color: #333;
+  background-color: #f2f2f2;
+  line-height: 1.5;
+  margin: 0 auto 1.5rem;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
 }
