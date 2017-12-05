@@ -3,7 +3,9 @@ html {
   color: #333;
   background-color: #f2f2f2;
   line-height: 1.5;
-  margin: 0 auto 1.5rem;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 *, *::before, *::after {
@@ -11,6 +13,67 @@ html {
 }
 
 h1 {
-  font-size: 2rem;
   text-align: center;
+}
+
+div {
+  border-left: 3px solid #333;
+  margin: 0 auto 1.5rem;
+}
+
+svg {
+  width: 100px;
+
+}
+
+.box {
+  margin: 0;
+  padding: 0;
+}
+
+.one {
+  background-color: #e2e2e2;
+  float: left;
+  width: 24vw;
+  display: inline-block;
+  margin: 0 0 1.5rem;
+}
+
+.two {
+  background-color: #ccc;
+  float: left;
+  width: 24vw;
+  display: inline-block;
+  margin: 0 0 1.5rem;
+}
+
+.three {
+  background-color: #aaa;
+  float: left;
+  width: 24vw;
+  display: inline-block;
+  margin: 0 0 1.5rem;
+}
+
+.four {
+  background-color: #999;
+  float: left;
+  width: 24vw;
+  display: inline-block;
+  border-right: 3px solid #333;
+}
+
+button {
+  display: inline-block;
+  margin: 0 auto 1.5rem;
+  padding: .75em;
+  background-color: #333;
+  border-radius: 4px;
+  color: #fff;
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: #000;
+  color: #fff;
 }
